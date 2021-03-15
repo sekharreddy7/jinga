@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jinga 5</title>
+</head>
+<body>
+    <h1>demanstrating jinja operation tags</h1>
+    {% if a > b and b > c %}
+        <h2>inside if  block</h2>
+        <h2>a is greater</h2>
+    {% elif b > c %}
+        <h2>inside elif condition</h2>
+        <h2>b is greater</h2>
+    {% else %}
+        <h2>inside else block</h2>
+        <h2>c is greater</h2>
+    {% endif %}
+
+</body>
+</html>
